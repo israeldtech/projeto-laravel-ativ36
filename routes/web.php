@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\OsController;
+use App\Http\Controllers\SistemaController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,14 +15,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', [SistemaController::class, 'welcome']);
 
-Route::get('/rota2', function () {
-    return view('rota2');
-});
+Route::get('/sobre', [SistemaController::class, 'sobre']);
 
-Route::get('/rota3', function () {
-    return view('rota3');
-});
+Route::get('/servicos', [SistemaController::class,'servicos']);

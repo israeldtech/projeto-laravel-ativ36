@@ -1,0 +1,11 @@
+/* Estilos início */
+section.inicio{
+    border: 1px solid black;
+    height: 20vh;
+    text-align: center;
+    background-color: rgb(223, 183, 132);
+    margin-top: 2rem;
+}
+
+
+/* Estilos sobre */
