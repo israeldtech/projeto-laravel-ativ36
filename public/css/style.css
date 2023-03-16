@@ -1,3 +1,15 @@
+/* Estilizacao template main */
+
+.msg{
+    background-color: #D4EDDA;
+    color: #155724;
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+
 /* Estilos início */
 section.inicio{
     border: 1px solid black;
@@ -9,3 +21,25 @@ section.inicio{
 
 
 /* Estilos sobre */
+
+
+
+/* Estilizando tela de cadastro de cliente */
+
+section.cadastrar-cliente{
+    width:70%;
+    margin: 2rem auto;
+}
+
+section.cadastrar-cliente span{
+    color: red;
+    font-size: 18px;
+}
+
+
+/* Estilização formulário de cadastro OS */
+
+section.cadastrar-os{
+    width:70%;
+    margin: 2rem auto;
+}
